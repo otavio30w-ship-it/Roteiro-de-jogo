@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #eef2f5;
+    color: #333;
+  }
+  
+  .jogo {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    margin-top: 0;
+    color: #1b4965;
+  }
+  
+  .dica {
+    background-color: #f0f7fa;
+    color: #1b4965;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-size: 0.95rem;
+  }
+  
+  #palavra {
+    font-size: 2rem;
+    font-weight: bold;
+    letter-spacing: 6px;
+    margin: 25px 0;
+    text-transform: uppercase;
+  }
+  
+  .controles {
+    margin: 20px 0;
+  }
+  
+  input {
+    width: 55px;
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid #ccc;
+    border-radius: 6px;
+    margin: 0 5px;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #1b4965;
+  }
+  
+  button {
+    padding: 10px 18px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #1b4965;
+    color: white;
+    transition: background-color 0.2s;
+  }
+  
+  button:hover {
+    background-color: #13364b;
+  }
+  
+  button:disabled {
+    background-color: #999;
+    cursor: not-allowed;
+  }
+  
+  #btn-reiniciar {
+    background-color: #2a9d8f;
+    margin-top: 10px;
+  }
+  
+  #btn-reiniciar:hover {
+    background-color: #21867a;
+  }
+  
+  .mensagem {
+    min-height: 24px;
+    font-weight: bold;
+    margin: 15px 0;
+  }
+  
+  .acerto {
+    color: #2a9d8f;
+  }
+  
+  .erro {
+    color: #e63946;
+  }
+  
+  .historico {
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    margin-top: 15px;
+    font-size: 0.95rem;
+  }
+  
+  .placar {
+    margin-top: 10px;
+    color: #555;
+  }
+  
